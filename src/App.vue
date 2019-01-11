@@ -1,17 +1,20 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Hello, Fundebug!"/>
+    <img
+      alt="Vue logo"
+      src="./assets/logo.png"
+    >
+    <HelloFundebug subGreeting="Fundebug Rocks!" />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import HelloFundebug from "./components/HelloFundebug.vue";
 
 export default {
   name: "app",
   components: {
-    HelloWorld
+    HelloFundebug
   }
 };
 </script>
